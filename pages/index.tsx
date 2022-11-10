@@ -1,12 +1,11 @@
-
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Bromsgrove Electricals</title>
+        <title>Bromsgrove Electricals V2 with Vercel</title>
         <link rel="icon" href="../public/images/power-button-icon-31.jpg" />
       </Head>
 
@@ -15,9 +14,7 @@ export default function Home() {
           Read <Link href="/posts/first-post">this page!</Link>
         </h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <p className="description">Bromsgrove Electricals V2 with Vercel</p>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
@@ -206,9 +203,8 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
-
 
 // This is the new need to alter and find the changes that have messed up boxing grids
 // import Head from 'next/head';
