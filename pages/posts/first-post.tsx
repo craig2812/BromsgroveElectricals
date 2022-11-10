@@ -6,7 +6,7 @@ export default function FirstPost() {
     return (
         <>
             <Head>
-                <title>First Post</title>
+                <title>Test CI with Codeflow</title>
             </Head>
  {/*An exmaple of adding external JS script such as this FB plugin*/}
             {/*<Script*/}
