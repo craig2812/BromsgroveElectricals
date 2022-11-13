@@ -22,15 +22,15 @@ export default function Home({ allPostsData }) {
         <p>Hey this is just a test</p>
 
         <main>
-          <h1 className="title">
+          <h1 className={utilStyles.title}>
             Read <Link href="/posts/first-post">this page!</Link>
           </h1>
 
-          <p className="description">
+          <p className={utilStyles.description}>
             Get started by editing <code>pages/index.js</code>
           </p>
 
-          <div className="grid">
+          <div className={utilStyles.grid}>
             <a href="https://nextjs.org/docs" className="card">
               <h3>Services &rarr;</h3>
               <p>Find in-depth information about Next.js features and API.</p>
